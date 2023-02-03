@@ -1,5 +1,5 @@
 name: test-runner
-on: [push, workflow_dispatch, merge]
+on: [push, workflow_dispatch]
 jobs:
   test:
     runs-on: ubuntu-latest
