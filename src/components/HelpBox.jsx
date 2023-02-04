@@ -1,5 +1,5 @@
 import './HelpBox.css';
-
+/* eslint-disable react/prop-types */
 function HelpBox({ title, text }) {
   return (
     <article className="help-box">
